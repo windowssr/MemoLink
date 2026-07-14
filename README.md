@@ -4,6 +4,14 @@
 
 设计文档：[docs/design.md](docs/design.md) · 协议：[docs/protocol.md](docs/protocol.md)
 
+## 下载
+
+安装包与 APK 见发行版（勿从源码树查找 `dist/`）：
+
+- [Gitee 发行版](https://gitee.com/windowssr/memo-link/releases)
+
+推荐附件：`MemoLink.exe` / 安装包、`MemoLink-*.apk`、`add-firewall.bat`（放行 TCP 47820）。
+
 ## 仓库里有什么
 
 ```
@@ -21,7 +29,7 @@ memolink/
 | `dist/`、`target/`、`build/`、`node_modules/` | 构建产物与依赖 |
 | `pairing.json`、`*.db` | 本机配对密钥与便签库，禁止上传 |
 
-安装包 / APK 请用 **GitHub Releases** 或 **Gitee 发行版** 附件发布，不要塞进源码仓库（体积大，且容易误传本地数据）。
+安装包 / APK 请用 **Gitee 发行版**（或 GitHub Releases）附件发布，不要塞进源码仓库（体积大，且容易误传本地数据）。
 
 ## 前置条件
 
