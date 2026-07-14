@@ -1,0 +1,41 @@
+# MemoLink — do not commit build artifacts or local runtime data
+
+# Dependencies & caches
+node_modules/
+.dart_tool/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Build outputs (source only in git; binaries go to Releases)
+dist/
+**/dist/
+target/
+**/target/
+desktop/src-tauri/target/
+mobile/build/
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/android/app/debug/
+mobile/android/app/profile/
+mobile/android/app/release/
+
+# Local runtime / secrets (never commit)
+pairing.json
+*.db
+*.db-journal
+.env
+.env.*
+credentials.json
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.sw?
