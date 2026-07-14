@@ -9,6 +9,7 @@
 安装包与 APK 见发行版（勿从源码树查找 `dist/`）：
 
 - [Gitee 发行版](https://gitee.com/windowssr/memo-link/releases)
+- [GitHub Releases](https://github.com/windowssr/MemoLink/releases)
 
 推荐附件：`MemoLink.exe` / 安装包、`MemoLink-*.apk`、`add-firewall.bat`（放行 TCP 47820）。
 
